@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "rigs": {
+    "agent_learn": {
+      "git_url": "git@github.com:scalefreegan/agent-learn.git",
+      "added_at": "2026-02-08T08:44:03.810604-07:00",
+      "beads": {
+        "repo": "",
+        "prefix": "agent"
+      }
+    },
+    "beerai": {
+      "git_url": "git@github.com:scalefreegan/beerai.git",
+      "added_at": "2026-02-08T08:42:16.796866-07:00",
+      "beads": {
+        "repo": "",
+        "prefix": "beerai"
+      }
+    },
+    "beerxml_python": {
+      "git_url": "git@github.com:scalefreegan/beerxml-python.git",
+      "added_at": "2026-02-08T08:47:57.498705-07:00",
+      "beads": {
+        "repo": "",
+        "prefix": "bp"
+      }
+    },
+    "cv": {
+      "git_url": "git@github.com:scalefreegan/cv.git",
+      "added_at": "2026-02-08T08:46:18.141853-07:00",
+      "beads": {
+        "repo": "",
+        "prefix": "cv"
+      }
+    }
+  }
+}

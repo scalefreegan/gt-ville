@@ -1,0 +1,11 @@
+{
+  "type": "rig",
+  "version": 1,
+  "name": "beerai",
+  "git_url": "git@github.com:scalefreegan/beerai.git",
+  "default_branch": "dev",
+  "created_at": "2026-02-08T08:41:55.911055-07:00",
+  "beads": {
+    "prefix": "beerai"
+  }
+}
