@@ -67,6 +67,8 @@ daemon/
 **/crew/
 **/mayor/rig/
 **/refinery/rig/
+# Rig bare clones (recreatable via gt rig add / gt doctor --fix)
+**/.repo.git/
 .events.jsonl
 .events.jsonl.lock
 .sqlhistory
