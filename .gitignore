@@ -60,6 +60,13 @@ CLAUDE.md
 .logs/
 logs/
 settings/
+daemon/
+
+# Gas Town workspace dirs (worktrees, crew, refinery - recreated by gt)
+**/polecats/
+**/crew/
+**/mayor/rig/
+**/refinery/rig/
 .events.jsonl
 .events.jsonl.lock
 .sqlhistory

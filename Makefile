@@ -1,4 +1,4 @@
-.PHONY: build desktop-build desktop-run install clean test test-e2e-container check-up-to-date
+.PHONY: build desktop-build desktop-run install clean test test-e2e-container check-up-to-date sync-upstream
 
 BINARY := gt
 BINARY_DESKTOP := gt-desktop
@@ -95,6 +95,12 @@ install: check-up-to-date build
 
 clean:
 	rm -f $(BUILD_DIR)/$(BINARY)
+
+# Pull latest from upstream (steveyegge/gastown). Run from repo root.
+sync-upstream:
+	git fetch upstream
+	git checkout main
+	git merge upstream/main
 
 test:
 	go test ./...
