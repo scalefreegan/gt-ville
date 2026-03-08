@@ -116,6 +116,9 @@ __pycache__/
 # Runtime state directories (gitignored ephemeral data)
 # =============================================================================
 **/.runtime/
+events/
+witness/
+deacon/dogs/
 
 # =============================================================================
 # Rig .beads symlinks (point to ignored mayor/rig/.beads, recreated on setup)
