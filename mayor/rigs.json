@@ -3,57 +3,41 @@
   "rigs": {
     "agent_learn": {
       "git_url": "git@github.com:scalefreegan/agent-learn.git",
-      "added_at": "2026-02-08T08:44:03.810604-07:00",
+      "added_at": "2026-02-08T08:43:57.977171-07:00",
       "beads": {
-        "repo": "",
+        "repo": "local",
         "prefix": "agent"
       }
     },
     "agent_skills": {
       "git_url": "git@github.com:scalefreegan/agent-skills.git",
-      "added_at": "2026-02-08T09:15:09.505739-07:00",
+      "added_at": "2026-02-08T09:15:03.035263-07:00",
       "beads": {
-        "repo": "",
+        "repo": "local",
         "prefix": "as"
       }
     },
     "agent_trade": {
       "git_url": "git@github.com:scalefreegan/agent-trade.git",
-      "added_at": "2026-02-08T20:12:32.472122-07:00",
+      "added_at": "2026-02-08T20:12:25.104723-07:00",
       "beads": {
-        "repo": "",
+        "repo": "local",
         "prefix": "at"
       }
     },
     "beerai": {
       "git_url": "git@github.com:scalefreegan/beerai.git",
-      "added_at": "2026-02-08T08:42:16.796866-07:00",
+      "added_at": "2026-02-08T08:41:55.911055-07:00",
       "beads": {
-        "repo": "",
+        "repo": "local",
         "prefix": "beerai"
-      }
-    },
-    "beerxml_python": {
-      "git_url": "git@github.com:scalefreegan/beerxml-python.git",
-      "added_at": "2026-02-08T08:47:57.498705-07:00",
-      "beads": {
-        "repo": "",
-        "prefix": "bp"
-      }
-    },
-    "cv": {
-      "git_url": "git@github.com:scalefreegan/cv.git",
-      "added_at": "2026-02-08T08:46:18.141853-07:00",
-      "beads": {
-        "repo": "",
-        "prefix": "cv"
       }
     },
     "new_eleusis": {
       "git_url": "git@github.com:scalefreegan/new-eleusis.git",
-      "added_at": "2026-03-07T09:22:29.007381-07:00",
+      "added_at": "2026-03-07T09:22:15.746327-07:00",
       "beads": {
-        "repo": "",
+        "repo": "local",
         "prefix": "ne"
       }
     }
