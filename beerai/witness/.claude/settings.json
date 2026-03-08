@@ -9,7 +9,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" && gt tap guard pr-workflow"
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt tap guard pr-workflow"
           }
         ]
       },
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" && gt tap guard pr-workflow"
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt tap guard pr-workflow"
           }
         ]
       },
@@ -27,7 +27,70 @@
         "hooks": [
           {
             "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" && gt tap guard pr-workflow"
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt tap guard pr-workflow"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(rm -rf /*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt tap guard dangerous-command"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(git push --force*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt tap guard dangerous-command"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(git push -f*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt tap guard dangerous-command"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(*bd mol pour*patrol*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '❌ BLOCKED: Patrol formulas must use wisps, not persistent molecules.' \u0026\u0026 echo 'Use: bd mol wisp mol-*-patrol' \u0026\u0026 echo 'Not:  bd mol pour mol-*-patrol' \u0026\u0026 exit 2"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(*bd mol pour *mol-witness*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '❌ BLOCKED: Patrol formulas must use wisps, not persistent molecules.' \u0026\u0026 echo 'Use: bd mol wisp mol-*-patrol' \u0026\u0026 echo 'Not:  bd mol pour mol-*-patrol' \u0026\u0026 exit 2"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(*bd mol pour *mol-deacon*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '❌ BLOCKED: Patrol formulas must use wisps, not persistent molecules.' \u0026\u0026 echo 'Use: bd mol wisp mol-*-patrol' \u0026\u0026 echo 'Not:  bd mol pour mol-*-patrol' \u0026\u0026 exit 2"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(*bd mol pour *mol-refinery*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '❌ BLOCKED: Patrol formulas must use wisps, not persistent molecules.' \u0026\u0026 echo 'Use: bd mol wisp mol-*-patrol' \u0026\u0026 echo 'Not:  bd mol pour mol-*-patrol' \u0026\u0026 exit 2"
           }
         ]
       }
@@ -38,29 +101,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/bin:$PATH\" && gt prime --hook && gt mail check --inject && gt nudge deacon session-started"
-          }
-        ]
-      }
-    ],
-    "PreCompact": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/bin:$PATH\" && gt prime --hook"
-          }
-        ]
-      }
-    ],
-    "UserPromptSubmit": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/bin:$PATH\" && gt mail check --inject"
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt prime --hook"
           }
         ]
       }
@@ -71,7 +112,29 @@
         "hooks": [
           {
             "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/bin:$PATH\" && gt costs record"
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt costs record"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt prime --hook"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt mail check --inject"
           }
         ]
       }
