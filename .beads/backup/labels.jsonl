@@ -10,6 +10,8 @@
 {"issue_id":"gt-ville-3ab","label":"gt:message"}
 {"issue_id":"gt-ville-3hn","label":"from:deacon/"}
 {"issue_id":"gt-ville-3hn","label":"gt:message"}
+{"issue_id":"gt-ville-3u9","label":"from:agent_trade/witness"}
+{"issue_id":"gt-ville-3u9","label":"gt:message"}
 {"issue_id":"gt-ville-5gl","label":"from:new_eleusis/witness"}
 {"issue_id":"gt-ville-5gl","label":"gt:message"}
 {"issue_id":"gt-ville-8si","label":"delivery:pending"}
@@ -33,6 +35,10 @@
 {"issue_id":"gt-ville-qg5","label":"gt:message"}
 {"issue_id":"gt-ville-t1x","label":"from:new_eleusis/witness"}
 {"issue_id":"gt-ville-t1x","label":"gt:message"}
+{"issue_id":"gt-ville-twk","label":"from:agent_trade/witness"}
+{"issue_id":"gt-ville-twk","label":"gt:message"}
+{"issue_id":"gt-ville-tzs","label":"from:new_eleusis/refinery"}
+{"issue_id":"gt-ville-tzs","label":"gt:message"}
 {"issue_id":"gt-ville-u5u","label":"delivery:pending"}
 {"issue_id":"gt-ville-u5u","label":"from:agent_trade/witness"}
 {"issue_id":"gt-ville-u5u","label":"gt:message"}
@@ -40,5 +46,7 @@
 {"issue_id":"gt-ville-x3x","label":"gt:message"}
 {"issue_id":"gt-ville-x56","label":"from:agent_trade/mr_money"}
 {"issue_id":"gt-ville-x56","label":"gt:message"}
+{"issue_id":"gt-ville-xbc","label":"from:agent_trade/refinery"}
+{"issue_id":"gt-ville-xbc","label":"gt:message"}
 {"issue_id":"gt-ville-zd4","label":"from:deacon/"}
 {"issue_id":"gt-ville-zd4","label":"gt:message"}
