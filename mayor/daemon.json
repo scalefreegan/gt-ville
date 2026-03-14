@@ -31,9 +31,7 @@
       "agent": "refinery",
       "enabled": true,
       "interval": "5m",
-      "rigs": [
-        "new_eleusis"
-      ]
+      "rigs": null
     },
     "scheduled_maintenance": {
       "enabled": true,
@@ -51,9 +49,7 @@
       "agent": "witness",
       "enabled": true,
       "interval": "5m",
-      "rigs": [
-        "new_eleusis"
-      ]
+      "rigs": null
     }
   },
   "type": "daemon-patrol-config",

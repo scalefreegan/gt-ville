@@ -112,7 +112,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt costs record"
+            "command": "export PATH=\"$HOME/go/bin:$HOME/.local/bin:$PATH\" \u0026\u0026 gt costs record \u0026"
           }
         ]
       }
